@@ -97,7 +97,7 @@ namespace SDKSample
                     rootFrame.Navigate(typeof(ProjectionViewPage), initData);
                     Window.Current.Content = rootFrame;
 
-                    // The call to Window.Current.Activate is required starting in Windos 10.
+                    // The call to Window.Current.Activate is required starting in Windows 10.
                     // Without it, the view will never appear.
                     Window.Current.Activate();
                 });
